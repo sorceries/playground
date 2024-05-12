@@ -30,7 +30,7 @@ const proform = {
           name: "Advanced Example",
           component: () => import("@/views/ProForm/examples/Advanced/index"),
           meta: {
-            locale: "Basic ProForm Example",
+            locale: "Advanced ProForm Example",
           },
         },
       ],
