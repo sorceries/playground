@@ -1,0 +1,25 @@
+// happy path settings
+
+.navCardsContainer {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  .navCard {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 0 8px;
+    box-sizing: border-box;
+
+    &:hover {
+      color: red;
+      border-color: currentColor;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "playground",
+  "description": "As the playground of Sorceries' creations.",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.17.1",
+    "@vueuse/core": "^10.9.0",
+    "@vueuse/router": "^10.9.0",
+    "lodash": "^4.17.21",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "sass": "^1.77.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-svg-loader": "^5.1.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
