@@ -25,11 +25,13 @@
     flex-direction: column;
 
     .navigationContent {
-      margin: 10px;
+      padding: 10px;
+      box-sizing: border-box;
     }
 
     .contentContent {
-      margin: 10px;
+      padding: 10px;
+      box-sizing: border-box;
     }
   }
 
